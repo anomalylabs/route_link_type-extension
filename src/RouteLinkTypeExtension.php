@@ -1,9 +1,8 @@
 <?php namespace Anomaly\RouteLinkTypeExtension;
 
 use Anomaly\NavigationModule\Link\Contract\LinkInterface;
+use Anomaly\NavigationModule\Link\Type\LinkTypeExtension;
 use Anomaly\RouteLinkTypeExtension\Form\RouteLinkTypeFormBuilder;
-use Anomaly\RouteLinkTypeExtension\Link\Form\LinkFormBuilder;
-use Anomaly\Streams\Platform\Addon\Extension\Extension;
 use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
 
 /**
@@ -13,7 +12,7 @@ use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
  * @author PyroCMS, Inc. <support@pyrocms.com>
  * @author Ryan Thompson <ryan@pyrocms.com>
  */
-class RouteLinkTypeExtension extends Extension
+class RouteLinkTypeExtension extends LinkTypeExtension
 {
 
     /**
